@@ -1,10 +1,13 @@
-const CACHE_NAME = "reel-shell-v2";
+const CACHE_NAME = "reel-shell-v4";
 const SHELL_FILES = [
   "./",
   "./index.html",
   "./manifest.json",
   "./icon-192.png",
-  "./icon-512.png"
+  "./icon-512.png",
+  "./logo-wave.png",
+  "./logo-text.png",
+  "./logo-full.png"
 ];
 
 self.addEventListener("install", (event) => {
